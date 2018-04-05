@@ -29,6 +29,6 @@ mybatis:
 
 log.config:
   ignoreUrls: /actuator/**
-  ignoreSuffixs: .jpg, .gif, .png
+  ignoreSuffixs: .jpg, .gif, .png, .ico
 
 # jdbc:mysql://127.0.0.1:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&readonly=true
