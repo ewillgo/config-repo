@@ -1,3 +1,6 @@
+log.config:
+  logLevel: TEST
+
 db.config:
   names: tradercat
   tradercat:
