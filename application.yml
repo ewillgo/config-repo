@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    initialization-mode: never
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 10MB
+  thymeleaf:
+    enabled: false
+
+mybatis:
+  configuration:
+    map-underscore-to-camelCase: true
+    cache-enabled: false
+    use-generated-keys: true
+    default-statement-timeout: 10
+  mapper-locations: "classpath*:mapper/**/*.xml"
+
+# jdbc:mysql://127.0.0.1:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&readonly=true
