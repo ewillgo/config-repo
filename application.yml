@@ -19,6 +19,10 @@ spring:
   resources:
     add-mappings: false
 
+feign:
+  hystrix:
+    enabled: true
+
 mybatis:
   configuration:
     map-underscore-to-camelCase: true
