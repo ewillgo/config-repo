@@ -14,7 +14,7 @@ db.config:
 server:
   servlet:
     session:
-      timeout: 60s
+      timeout: 3600s
 
 spring:
   session:
