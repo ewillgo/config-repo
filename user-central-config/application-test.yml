@@ -31,3 +31,9 @@ spring:
       pool:
         max-active: 10
         min-idle: 2
+
+usercentral.session.cookie:
+  cookieName: ucid
+  cookiePath: /
+  cookieMaxAge: 2h
+  useHttpOnlyCookie: true
