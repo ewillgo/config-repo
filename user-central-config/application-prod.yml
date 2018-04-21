@@ -1,0 +1,33 @@
+log.config:
+  logLevel: PROD
+
+db.config:
+  names: tradercat
+  tradercat:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: '{cipher}AQB860j3xCbyyW2RqzrPO/puSEF9Pen41IdvbgCSNJLP3KnQV9qJqoKeO16kukJaGH/zm9Zt5NmtcCuolGBVE+VKUrBUOUDau+oVtUSJoFKzZOqgaCzWfmc3T9vXSYCllYvPBiwtghktHajr+PTsdi+k7gkF7kKD5KtvfG3DAj9nbn+VtYQRBCQKn0lSDi1zuaAYg9CiZYxwlaLMRN4Azs/MApsA+N4XrLW6pE/gNRumpcgtu6r8E7XNC1M9DPF+ZkyflSMip4R60DmuTIT1fY0ysMx06Mqm5bLxnQfxwUSQJFzNOGuf80NYZw4lbF8MyvWDnFfJmd4ZdUJob1/40lLaYMc6vgSixUMPVEDURsFwwAAYp0Id/DgwlWRanvCP8wGTfkhQn0g7flTkxVOl0u0SAOlL0pK2doo7DI4vwD3iN8EupjMS5/+zRRsFYB5GlHPozgBAncJUJ7/EdH28kwV/41I0PEanG+m6zaqnS8nVLWk1svprP0GggBdyxTmLyk0i2eo3O3iORS+WkQsoMRgDne6ClXdI3gJMZGMYRr9ArA=='
+    username: '{cipher}AQB5Zp60Ie87P9frCGjH95guKE4tn0x52DmKFgjIALscHKaF/dN+RBe9x6fH1fU+CSMUx0gff3trwNSEcjPtyJ+c+3izOIrb73kPmmopKW0P9sPlMLOmCm7Exq48eXPZ1VDzt08knGOUWgA36q9pHXvwcv6J2AfHOZ4+09PCVrErvv1+/3GcbfHFkSZhJA0ldzw4wpkphm6r2wj7D2+sVbSzev7LS0rn1MRGL2qDZIktVh9z0x28xALE5HUngnl8T1ah+Dk0RBGrVG0kgqqig0SoWpIfDEKriiDhga17su79tXuLpkZovcnnSR3Q7ypZAO1hvg1HLNrsswBwJG+myVK67LHcML0B60kNwBRuj1Wc1DRappX/bx1AeKkaWkVNdP4='
+    password: '{cipher}AQAFJSd83s8S9JX734ioukVP4/q6UhzWRIc0pIIm2MOdQEsTYrYOIWExK7VseJy1fEngc2bLMK7NQLoPLBeoY5/HA1MGdZPudoVIH4KmtgFduT88YJ7Dl8aLfCvQT14J4wrUKrSbtwoCqrqoWJC2UhZWm+JJPf4XMWHUlV+rya3cNQ8bWReQZaw6z0LAfw1Kfb94vya3694FzA6TEOSkKOuQRJqtE6ZSx3I4NdW4eC+V3jd2trQRuCB5uCFqncyjV1Dzntl1EpktbLI5h5iNs6z+5/rbZhKNt6pSLCbZwDTmO8kO0PYyNd4Ub1fcKcJj+xWtMKs7xn8c6XhQ782qy0BJ9ypi1NAAAYBcpcZtxEIvj1gGJa1bnCT6m7XKWgTwIsCyiVS12sPpVA/ztyjOXwKsVM7S5vfaiTle8oTInAB7JA=='
+    minimumIdle: 1
+    maximumPoolSize: 10
+
+server:
+  servlet:
+    session:
+      timeout: 3600s
+
+spring:
+  session:
+    redis:
+      flush-mode: on_save
+      namespace: tradercat
+    store-type: redis
+  redis:
+    host: '{cipher}AQAqQWP5pP5QxH7vqdkp6TgPiK0paPb9KIUS1tRz2Y03Eopgo4uJeYVUrSEebidRgC6byZSRhp8L9pKkOQ4WeR7Mdvyqoldqtjl2qsgD8HfJghovqrwBhPzOY8/TsdPJX24kjIZQ7Pu4vTSYCcnxfOJaUPlJuDnxKoyLpoCX82cURM3fIBN86O0qRvlZBVTWFkRUeDKFE/9INfqIzX73laBaQz8sncWB5UKE5IWkWi/JBPeLU1DB2d8X7+P57oKo0psLtKUflzB6yUNpSRQL9GqEk7Dy9xROAuAySo+hUU438cAb3ldhlhaG/SUoU5PMKuDltQqC5l8OffitNu684C52wswqcN93rYiYXld2fRWHgSCmFXRx6KPmCIPN2z82GFY='
+    password: '{cipher}AQBVpVJA+gaMvGlNA18WSqkelHsxg4n1AB7fd4Nvpw6EsPyZKpJ6bGXajCZkMSx6gGpPxEKmoX/S9Iznh6F0TGm0WXs8bOjpCL3CdP1Dp5Y+Ocw06WALtCV/g8XtswYK1I2oXocWCboZ3KtvIKVLArEsfsEAfB7e2t4xWK7uAxE+RSQLpt4qSMoUrJqDK7l+TBUDcO1Eea35yJJqzo0R8zvOzCRdgKhpfIlHKdARdkprq+IaXqG2HNm0D7k2ElypGi1fwAPP068gaCUttJsx/oms0ndyOzYVlC4MVgnJDAyipRIP9fEmnyG3xKp7gaWTPE933ImnwUcyr7D4/PVgRAPB06+7XkomYUw3gWYMNzN1n1umTtCZeB0xwlYGSqP8Wck4XMShJfYO0nV8Q6BtwZMXX5UoyUfPe24tUgZ9KoacBw=='
+    database: 0
+    port: 8001
+    lettuce:
+      pool:
+        max-active: 10
+        min-idle: 2
