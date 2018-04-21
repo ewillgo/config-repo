@@ -20,7 +20,7 @@ spring:
   session:
     redis:
       flush-mode: on_save
-      namespace: tradercat
+      namespace: usercentral
     store-type: redis
   redis:
     host: '{cipher}AQAqQWP5pP5QxH7vqdkp6TgPiK0paPb9KIUS1tRz2Y03Eopgo4uJeYVUrSEebidRgC6byZSRhp8L9pKkOQ4WeR7Mdvyqoldqtjl2qsgD8HfJghovqrwBhPzOY8/TsdPJX24kjIZQ7Pu4vTSYCcnxfOJaUPlJuDnxKoyLpoCX82cURM3fIBN86O0qRvlZBVTWFkRUeDKFE/9INfqIzX73laBaQz8sncWB5UKE5IWkWi/JBPeLU1DB2d8X7+P57oKo0psLtKUflzB6yUNpSRQL9GqEk7Dy9xROAuAySo+hUU438cAb3ldhlhaG/SUoU5PMKuDltQqC5l8OffitNu684C52wswqcN93rYiYXld2fRWHgSCmFXRx6KPmCIPN2z82GFY='
