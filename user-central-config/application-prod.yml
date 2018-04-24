@@ -33,7 +33,7 @@ spring:
         min-idle: 2
 
 usercentral:
-  accessToken:
+  access-token:
     tokenMaxAge: 2h
     tokenEncryptKey: '{cipher}AQAUPw0lI+wVQHvKpgdwALJPt1K7XzsjTiK7pF/zYVx3DDUk+vXza6g0mE3GeM9tlO4gGBVysStBwZfoi1B/Ny20LpxREzrVSPyNUxgDIzqbTUMLEQBGldv36gJRERm5YwUFboEQK6M/CDp48FzixtUlLanQC9Rdd27+BkXd2mGy/p7dZUYIWBgefW8SFKnXYd+DmBqpfDvzPmFuutI3zItGq6nq4LvMXzQO/P5ST0DEzdA0np7/I+ywNmAmcc8KqasZWlXsG3k/MDrFDEhADm9r5CloeSIBbusnjcldQ4N/Wh5hIhhjHpBDJZ3I5N0QMkZkK++B89mfw7QcQreKj1u6nUBvA2lsytt14BdK5k4wjTs1Qnw5sIeL6Ak0IMTFr78Xm/i+s0mnudBx020y2qVD4I9VljfK7eRip1wmBUsLpIur2AFsTot9EDFsOn2iftsmNcBIdKZUfRBOCzKqiQu8'
   ticket:
