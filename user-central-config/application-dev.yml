@@ -39,9 +39,3 @@ usercentral:
   ticket:
     ticketMaxAge: 60s
     ticketEncryptKey: '{cipher}AQBrMvD5H/Cqla1mSCaalRJwCNjP7x9W+Y8SzMaIEFmFdJajQnaKGRDCZmwiTclv7ivlW9tBruSc+uQKum0yZUEqjVwJjTSwv5uezXnFW4ie/Sje0Z7qXj4sshDTmQrwsSvGAobj2nPUhFdwQautLYIpq0E39VxJDitOzjomkxSjhC3xngH1x5Wixk6QN5ZWhxSvQx0MTV/moghYdR/KVFwtlelf+FtSNeZwoEpEb0nUhIUsEfoH2b3BxiOyI1d7uHHtS0ig2266x+v58aNNPaUxgJ4Xc7tgVMVHuyh6qoRja75aGlKy0Br35e0agp/5EJgOciKMQWO15OeYL0sr12BmCdJhlAQcn01dD/hsqti5FvA8dckRImVpp9kdXkch0LYKRgrXrdUDggoEC7y4ZVsv1P26n7ObzXCvU/PyOfKsNSOljmyQ79lZYyLAHqQY9VqbSR98xuFKeky4Tf2M8+zy'
-  session:
-    cookie:
-      cookieName: ucid
-      cookiePath: /
-      cookieMaxAge: 2h
-      useHttpOnlyCookie: true
