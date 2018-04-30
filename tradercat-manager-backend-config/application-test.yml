@@ -11,17 +11,7 @@ db.config:
     minimumIdle: 1
     maximumPoolSize: 10
 
-server:
-  servlet:
-    session:
-      timeout: 3600s
-
 spring:
-  session:
-    redis:
-      flush-mode: on_save
-      namespace: tradercat
-    store-type: redis
   redis:
     host: '{cipher}AQAqQWP5pP5QxH7vqdkp6TgPiK0paPb9KIUS1tRz2Y03Eopgo4uJeYVUrSEebidRgC6byZSRhp8L9pKkOQ4WeR7Mdvyqoldqtjl2qsgD8HfJghovqrwBhPzOY8/TsdPJX24kjIZQ7Pu4vTSYCcnxfOJaUPlJuDnxKoyLpoCX82cURM3fIBN86O0qRvlZBVTWFkRUeDKFE/9INfqIzX73laBaQz8sncWB5UKE5IWkWi/JBPeLU1DB2d8X7+P57oKo0psLtKUflzB6yUNpSRQL9GqEk7Dy9xROAuAySo+hUU438cAb3ldhlhaG/SUoU5PMKuDltQqC5l8OffitNu684C52wswqcN93rYiYXld2fRWHgSCmFXRx6KPmCIPN2z82GFY='
     password: '{cipher}AQBVpVJA+gaMvGlNA18WSqkelHsxg4n1AB7fd4Nvpw6EsPyZKpJ6bGXajCZkMSx6gGpPxEKmoX/S9Iznh6F0TGm0WXs8bOjpCL3CdP1Dp5Y+Ocw06WALtCV/g8XtswYK1I2oXocWCboZ3KtvIKVLArEsfsEAfB7e2t4xWK7uAxE+RSQLpt4qSMoUrJqDK7l+TBUDcO1Eea35yJJqzo0R8zvOzCRdgKhpfIlHKdARdkprq+IaXqG2HNm0D7k2ElypGi1fwAPP068gaCUttJsx/oms0ndyOzYVlC4MVgnJDAyipRIP9fEmnyG3xKp7gaWTPE933ImnwUcyr7D4/PVgRAPB06+7XkomYUw3gWYMNzN1n1umTtCZeB0xwlYGSqP8Wck4XMShJfYO0nV8Q6BtwZMXX5UoyUfPe24tUgZ9KoacBw=='
