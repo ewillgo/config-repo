@@ -34,7 +34,7 @@ spring:
 
 usercentral:
   cors:
-    allowedOrigins: http://
+    allowedOrigins: http://tradercat.sportsdb.cc
     allowedMethods: GET, POST, OPTIONS
     allowedHeaders: x-requested-with, content-type
     exposedHeaders:
