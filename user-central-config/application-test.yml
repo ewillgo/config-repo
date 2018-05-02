@@ -33,6 +33,13 @@ spring:
         min-idle: 2
 
 usercentral:
+  cors:
+    allowedOrigins: http://
+    allowedMethods: GET, POST, OPTIONS
+    allowedHeaders: x-requested-with, content-type
+    allowCredentials: true
+    maxAge: 3600
+    path: /**
   access-token:
     tokenMaxAge: 2h
     tokenEncryptKey: '{cipher}AQBP642qZPLaGcHuOUE8EeaoTk7bJp4+q5N0nm/ZJQ6tw2w0DGs8VcQqCmKCBVl71Vc+JcmG2oe4kmoM61jrpR4mPpginqFdKnIktkFIX0cdJ2RVZk5DySJFazXuwxHhs71JIY0+5teMb3u++wT4K/37HuFtWzGcrbq69B38+sw9TwZ6OL/uJQ6sKYu8ApHp4+/I2HbhzQp/eq47Fw/cotELzaYplVakJb18KpZsPv5DlALPfWociOt6wR/zU2gTH3ArUR2yNyn5T60fY8tbZMsYqpuma/tIuPcxFrL1JfQatRIfcw/o0Xk6jMiripoE9Lh7oLSLaQJEo0FMUNhDuDuAZFOXcAB6su2EsDoVSzWKo1/irUtIs08TK08RCj8uKdO3WMw0W6gzewVHq35m6pkX'
