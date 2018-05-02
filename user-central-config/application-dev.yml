@@ -37,6 +37,7 @@ usercentral:
     allowedOrigins: http://
     allowedMethods: GET, POST, OPTIONS
     allowedHeaders: x-requested-with, content-type
+    exposedHeaders:
     allowCredentials: true
     maxAge: 3600
     path: /**
