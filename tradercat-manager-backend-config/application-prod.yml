@@ -23,6 +23,6 @@ spring:
         min-idle: 2
 
 usercentral:
-  loginUrl: http://uc.sportsdb.cc/api/user/login
-  logoutUrl: http://uc.sportsdb.cc/api/user/logout
-  sessionUrl: http://uc.sportsdb.cc/api/user/getSession
+  loginUrl: http://uas.sportsdb.cc/api/user/login
+  logoutUrl: http://uas.sportsdb.cc/api/user/logout
+  sessionUrl: http://uas.sportsdb.cc/api/user/getSession
