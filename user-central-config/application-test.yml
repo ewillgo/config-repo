@@ -32,15 +32,6 @@ spring:
         max-active: 10
         min-idle: 2
 
-framework.cors:
-  allowedOrigins: http://manager.tradercat.net, http://manager.sportsdb.cc
-  allowedMethods: GET, POST, OPTIONS
-  allowedHeaders: x-requested-with, content-type
-  exposedHeaders:
-  allowCredentials: true
-  maxAge: 3600s
-  path: /**
-
 usercentral:
   access-token:
     tokenMaxAge: 2h
