@@ -1,8 +1,0 @@
-framework.cors:
-  allowedOrigins: http://manager.tradercat.net, http://manager.sportsdb.cc, http://113.80.96.99:9001
-  allowedMethods: GET, POST, OPTIONS
-  allowedHeaders: x-requested-with, content-type
-  exposedHeaders:
-  allowCredentials: true
-  maxAge: 3600s
-  path: /**
