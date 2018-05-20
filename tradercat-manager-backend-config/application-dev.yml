@@ -22,9 +22,11 @@ spring:
         max-active: 10
         min-idle: 2
 
-usercentral:
-  loginUrl: http://uas.sportsdb.cc/api/user/login
-  logoutUrl: http://uas.sportsdb.cc/api/user/logout
-  sessionUrl: http://uas.sportsdb.cc/api/user/getSession
+uas:
   appKey: '{cipher}AQAjXQVjy0XTIBevjpEkpTBlRraAAmsKxuSGABsBdDP7NFsyhiCSSeDECOV+nDwSxkOmUrGVMcunyReBV9QCVOn/xnMIKdbctoL9/4o8fLwh2XFIe9yUlrgtwVcCxJXJIjDKCYSw2u8JGcmT5GElVMydn4gTUbNc6PEfNJiLN5zoiv7VJN4gE8GdkRSJ29nxnDdlb9kyyIfNwXnGC84V4s0DQqmvJEfVh3sZmkjFuwJN9bnYpMU02R7MOxPJKksbiUdGa3yZkSwhTOfXNgk6LWNTGUdm9OtycAQvWNlv0Zjf6hELD/XMdvrWrrF4bw9yXiYt+Za3olQwjb740OOJQ9E6o2gAzqb6qnCZrePLXcm2X75gYeYSEXHfsoDmVZ3t840='
   appSecret: '{cipher}AQAnWs+k0PLYQWLspVQFzFvklKc+/E3R27wP9BkG3IYS3IjzJ1aa6GCJoRRNCKdjo6KGhdb8FiWDzYIm9dGnt5fRNvkxbWwnj2bF25uSFX51ySIjBu3ZAU67O0cXC1+qZOtaXS5AopRMUrKuozndjuzJNb01klPK/yTrU6lgB/VWmTUEoymQnVgteJYI0ksWZnYQX+hYxYwpCUappRkW5R4IU2gfl6uTM6v0/20UuKAU5EFiLbvqu0Bz909nUgmoZYorqOGOMGlVZuAATodiKVwcLa2Q/4fb54oUMfK8s8Z7ZbcnSeS5F7kXEY6uwUT9x4n1pW99dZ7AiwqGXkOKrbAesiLv2VRRyBNy4NOrp811UyKezz000hpBBPQbeZAPktE0Sf1tZxmj6txXxtKNb+4S'
+  cookieName: uassession
+  cookiePath: /
+  cookieDomain: sportsdb.cc
+  cookieMaxAge: 24h
+  useHttpOnlyCookie: true

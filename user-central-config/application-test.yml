@@ -31,17 +31,3 @@ spring:
       pool:
         max-active: 10
         min-idle: 2
-
-usercentral:
-  access-token:
-    tokenMaxAge: 2h
-    tokenEncryptKey: '{cipher}AQBP642qZPLaGcHuOUE8EeaoTk7bJp4+q5N0nm/ZJQ6tw2w0DGs8VcQqCmKCBVl71Vc+JcmG2oe4kmoM61jrpR4mPpginqFdKnIktkFIX0cdJ2RVZk5DySJFazXuwxHhs71JIY0+5teMb3u++wT4K/37HuFtWzGcrbq69B38+sw9TwZ6OL/uJQ6sKYu8ApHp4+/I2HbhzQp/eq47Fw/cotELzaYplVakJb18KpZsPv5DlALPfWociOt6wR/zU2gTH3ArUR2yNyn5T60fY8tbZMsYqpuma/tIuPcxFrL1JfQatRIfcw/o0Xk6jMiripoE9Lh7oLSLaQJEo0FMUNhDuDuAZFOXcAB6su2EsDoVSzWKo1/irUtIs08TK08RCj8uKdO3WMw0W6gzewVHq35m6pkX'
-  ticket:
-    ticketMaxAge: 10s
-    ticketEncryptKey: '{cipher}AQBrMvD5H/Cqla1mSCaalRJwCNjP7x9W+Y8SzMaIEFmFdJajQnaKGRDCZmwiTclv7ivlW9tBruSc+uQKum0yZUEqjVwJjTSwv5uezXnFW4ie/Sje0Z7qXj4sshDTmQrwsSvGAobj2nPUhFdwQautLYIpq0E39VxJDitOzjomkxSjhC3xngH1x5Wixk6QN5ZWhxSvQx0MTV/moghYdR/KVFwtlelf+FtSNeZwoEpEb0nUhIUsEfoH2b3BxiOyI1d7uHHtS0ig2266x+v58aNNPaUxgJ4Xc7tgVMVHuyh6qoRja75aGlKy0Br35e0agp/5EJgOciKMQWO15OeYL0sr12BmCdJhlAQcn01dD/hsqti5FvA8dckRImVpp9kdXkch0LYKRgrXrdUDggoEC7y4ZVsv1P26n7ObzXCvU/PyOfKsNSOljmyQ79lZYyLAHqQY9VqbSR98xuFKeky4Tf2M8+zy'
-  session:
-    cookie:
-      cookieName: ucid
-      cookiePath: /
-      cookieMaxAge: 2h
-      useHttpOnlyCookie: true
