@@ -3,7 +3,7 @@ log.config:
 
 framework.http:
   maxIdleConnections: 5
-  readTimeout: 10s
+  readTimeout: 1s
   connectTimeout: 10s
   writeTimeout: 10s
   keepAliveDuration: 30s
