@@ -1,0 +1,8 @@
+framework.cors:
+  allowedOrigins: http://www.tradercat.net, http://www.sportsdb.cc
+  allowedMethods: GET, POST, OPTIONS
+  allowedHeaders: x-requested-with, content-type
+  exposedHeaders:
+  allowCredentials: true
+  maxAge: 3600s
+  path: /**

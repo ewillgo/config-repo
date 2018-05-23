@@ -1,6 +1,15 @@
 log.config:
   logLevel: TEST
 
+framework.http:
+  maxIdleConnections: 5
+  readTimeout: 10s
+  connectTimeout: 10s
+  writeTimeout: 10s
+  keepAliveDuration: 30s
+  followRedirects: true
+  followSslRedirects: true
+
 db.config:
   names: usercentral
   usercentral:

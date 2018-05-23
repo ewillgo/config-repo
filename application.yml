@@ -17,24 +17,6 @@ spring:
       name: "${EUREKA_USER}"
       password: "${EUREKA_PASSWORD}"
 
-framework.http:
-  maxIdleConnections: 5
-  readTimeout: 1s
-  connectTimeout: 1s
-  writeTimeout: 1s
-  keepAliveDuration: 30s
-  followRedirects: true
-  followSslRedirects: true
-
-http.config:
-  maxIdleConnections: 5
-  readTimeout: 1s
-  connectTimeout: 1s
-  writeTimeout: 1s
-  keepAliveDuration: 30s
-  followRedirects: true
-  followSslRedirects: true
-
 feign:
   hystrix:
     enabled: true
@@ -54,8 +36,28 @@ ribbon:
   ReadTimeout: 10000
 
 hystrix:
-  command.default.execution.isolation.thread.timeoutInMilliseconds: 100
+  command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
   threadpool.default.coreSize: 10
+
+# Framework rest template configure
+framework.http:
+  maxIdleConnections: 5
+  readTimeout: 1s
+  connectTimeout: 1s
+  writeTimeout: 1s
+  keepAliveDuration: 30s
+  followRedirects: true
+  followSslRedirects: true
+
+# Raw rest template configure
+http.config:
+  maxIdleConnections: 5
+  readTimeout: 1s
+  connectTimeout: 1s
+  writeTimeout: 1s
+  keepAliveDuration: 30s
+  followRedirects: true
+  followSslRedirects: true
 
 mybatis:
   configuration:

@@ -1,6 +1,15 @@
 log.config:
   logLevel: PROD
 
+framework.http:
+  maxIdleConnections: 5
+  readTimeout: 3s
+  connectTimeout: 3s
+  writeTimeout: 3s
+  keepAliveDuration: 30s
+  followRedirects: true
+  followSslRedirects: true
+
 db.config:
   names: usercentral
   usercentral:
