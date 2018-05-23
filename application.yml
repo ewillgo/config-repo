@@ -26,6 +26,15 @@ framework.http:
   followRedirects: true
   followSslRedirects: true
 
+http.config:
+  maxIdleConnections: 5
+  readTimeout: 1s
+  connectTimeout: 1s
+  writeTimeout: 1s
+  keepAliveDuration: 30s
+  followRedirects: true
+  followSslRedirects: true
+
 feign:
   hystrix:
     enabled: true
