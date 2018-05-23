@@ -50,11 +50,11 @@ feign:
 
 ribbon:
   ServerListRefreshInterval: 5000
-  ConnectTimeout: 3000
+  ConnectTimeout: 10000
   ReadTimeout: 10000
 
 hystrix:
-  command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+  command.default.execution.isolation.thread.timeoutInMilliseconds: 100
   threadpool.default.coreSize: 10
 
 mybatis:
