@@ -1,5 +1,5 @@
 framework.cors:
-  allowedOrigins: http://manager.tradercat.net
+  allowedOrigins: http://manager.tradercat.net, http://192.168.0.254
   allowedMethods: GET, POST, OPTIONS
   allowedHeaders: x-requested-with, content-type
   exposedHeaders:
