@@ -1,5 +1,5 @@
 framework.cors:
-  allowedOrigins: http://www.tradercat.net, http://www.sportsdb.cc
+  allowedOrigins: http://manager.tradercat.net
   allowedMethods: GET, POST, OPTIONS
   allowedHeaders: x-requested-with, content-type
   exposedHeaders:
